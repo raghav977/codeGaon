@@ -1,0 +1,19 @@
+{
+  "name": "codegaon-server",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "description": "Phase 2: logins, scores and teacher dashboard for CodeGaon (not built yet)",
+  "scripts": {
+    "dev": "node --watch src/index.js",
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "express": "^4.21.1",
+    "mysql2": "^3.11.4",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5"
+  }
+}
